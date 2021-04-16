@@ -19,7 +19,6 @@ body {
 #header {
     width: 100%;
     background-color: white;
-    height: 40vh;
     font-size: 30px;
 }
 
@@ -44,9 +43,8 @@ body {
 }
 
 .column-2 img {
-    width: 75%;
+    width: 100%;
     border-radius: 10px;
-    margin: 100px;
 }
 
 .column-2 h1 {
@@ -86,4 +84,53 @@ body {
 
 .relleno-columnas {
     padding-right: 20px;
+}
+
+.padding-right {
+    padding-right: 10%;
+}
+
+.padding-left {
+    padding-left: 10%;
+}
+
+@media screen and (max-width:700px) {
+    /* Responsive layout */
+    /* la clase two-column ha de tener ancho de 100% */
+    .column-2 {
+        width: 100%;
+        font-size: 75%;
+    }
+
+    #header {
+        width: 100%;
+        background-color: white;
+        font-size: 20px;
+    }
+
+    /* la clase four-column ha de tener ancho de 50% */
+    .column-4 {
+        width: 50%;
+    }
+
+    .relleno-lateral {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .relleno-columnas {
+        padding-right: 0px;
+    }
+
+    .flex {
+        display: block;
+    }
+
+    .padding-right {
+        padding-right: 0%;
+    }
+    
+    .padding-left {
+        padding-left: 0%;
+    }
 }
