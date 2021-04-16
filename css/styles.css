@@ -22,6 +22,10 @@ body {
     font-size: 30px;
 }
 
+.header {
+    text-align: left;
+}
+
 #header h1 {
     color: teal;
 }
